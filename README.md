@@ -104,11 +104,9 @@ Interactive Task Manager/
 
 # Key Concepts Used
 ## JavaScript
-
 Used for application logic, task management, filtering, searching, and LocalStorage operations.
 
 ## jQuery
-
 Used for:
 
 - DOM selection
@@ -119,16 +117,15 @@ Used for:
 
   
 ## DOM Manipulation
-
 The task list is dynamically created and updated based on user actions.
 
 ## LocalStorage
-
 Used to save tasks in the browser and restore them when the page is loaded again.
 
 ## Tailwind CSS
-
 Used to create a responsive and user-friendly interface.
+
+
 
 # Application Flow
 
@@ -141,6 +138,7 @@ Update Task Data
 Save to LocalStorage
      ↓
 Render Updated Tasks
+
 
 
 # Learning Outcomes
@@ -161,6 +159,7 @@ Through this project, I practiced:
 - Responsive UI development
 
 
+
 # Future Improvements
 
 Possible future improvements include:
@@ -175,4 +174,4 @@ Possible future improvements include:
 
 
 # Author
-  ## Neha
+   Neha
