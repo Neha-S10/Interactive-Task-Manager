@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Task Manager</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body>
+<div class="bg-gray-700 text-white text-center space-y-4 w-full max-w-4xl mx-auto mt-25 px-6 py-6 rounded-2xl">
+    <h1 class="font-bold text-4xl flex justify-center items-center pt-8 pb-4">Interactive Task Manager</h1>
+
+<div class="flex justify-center items-center">
+    <input class="border-2 border-white p-2 rounded-lg " type="text" id="taskInput" placeholder="Enter task">
+
+    <button id="addTaskBtn" class="bg-white border-blue-700 text-blue-500 hover:bg-blue-700 hover:text-white rounded-3xl px-6 p-4 font-semibold ml-7">Add Task</button>
+</div>
+
+
+<div class="flex items-center gap-3 flex-wrap justify-center">
+    <input class="border-2 border-white p-2 rounded-lg ml-7" id="searchInput" type="text" placeholder="Search tasks..." >
+    <button id="allBtn" class="bg-white text-blue-500 border-blue-700 hover:bg-blue-700 hover:text-white rounded-3xl px-6 p-4 ml-7 font-semibold">All</button>
+    <button id="activeBtn" class="bg-white text-blue-500 border-blue-700 hover:bg-blue-700 hover:text-white rounded-3xl px-6 p-4 ml-7 font-semibold">Active</button>
+    <button id="completedBtn" class="bg-white text-blue-500 border-blue-700 hover:bg-blue-700 hover:text-white rounded-3xl px-6 p-4 ml-7 font-semibold">Completed</button>
+</div>
+
+<div class="flex justify-center items-center gap-10">
+    <p id="totalTasks">Total: 0</p>
+    <p id="completedTasks">Completed: 0</p>
+    <p id="pendingTasks">Pending: 0</p>
+</div>
+
+    <ul id="taskList" class="mt-6 space-y-3"></ul>
+    <p id="emptyMessage" class="hidden text-gray-300 mt-4">No tasks available</p>
+    <p id="noMatchMessage" class="hidden text-gray-300 mt-4"> No matching tasks found </p>
+</div>
+
+
+<div class="hidden bg-blue-700 text-white"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="./jQuery.js"></script>
+</body>
+</html>
