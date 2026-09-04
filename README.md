@@ -85,8 +85,8 @@ Each task contains:
 ```
 
 
-Project Structure
-Interactive-Task-Manager/
+## Project Structure
+Interactive Task Manager/
 │
 ├── src/
 │   ├── index.html
@@ -94,18 +94,18 @@ Interactive-Task-Manager/
 │   ├── jQuery.js
 │   └── output.css
 │
-├── README.md
 ├── .gitignore
 ├── package.json
-└── package-lock.json
+├── package-lock.json
+└── README.md
 
 
-Key Concepts Used
-- *JavaScript
+## Key Concepts Used
+# JavaScript
 
 Used for application logic, task management, filtering, searching, and LocalStorage operations.
 
-- *jQuery
+# jQuery
 
 Used for:
 
@@ -116,20 +116,20 @@ Used for:
 - Event delegation
 
   
-- *DOM Manipulation
+# DOM Manipulation
 
 The task list is dynamically created and updated based on user actions.
 
-- *LocalStorage
+# LocalStorage
 
 Used to save tasks in the browser and restore them when the page is loaded again.
 
-- *Tailwind CSS
+# Tailwind CSS
 
 Used to create a responsive and user-friendly interface.
 
-- *Application Flow
-- 
+# Application Flow
+
 User Action
      ↓
 jQuery Event Handler
@@ -141,7 +141,7 @@ Save to LocalStorage
 Render Updated Tasks
 
 
-- *Learning Outcomes
+# Learning Outcomes
 
 Through this project, I practiced:
 
@@ -159,7 +159,7 @@ Through this project, I practiced:
 - Responsive UI development
 
 
-- *Future Improvements
+# Future Improvements
 
 Possible future improvements include:
 
@@ -172,5 +172,5 @@ Possible future improvements include:
 - Backend database integration
 
 
-Author
-  Neha
+## Author
+  # Neha
